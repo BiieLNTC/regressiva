@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media (min-width: 0px) {
+    body {
+        height: 100vh;
+        display: grid;
+        align-items: center;
+        background-image: url(euyela.jpg);
+        background-repeat: no-repeat;
+        background-position: center center; 
+    }
+
+    h1 {
+        text-align: center;
+        color: #ffffff;
+        text-shadow: 10px 10px 10px black;
+        font-size: 3rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .contador li {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        padding: 1rem;
+        color: white;
+        background-color: #000000a6;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+        border-radius: 5px;
+        text-align: center;
+    }
+    
+    .contador li span {
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-size: 5rem;
+    }
+}
+
+@media (min-width: 300px) {
+    body {
+        height: 100vh;
+        display: grid;
+        align-items: center;
+        background-image: url(euyela.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;    
+    }
+
+    h1 {
+        text-align: center;
+        color: #ffffff;
+        text-shadow: 10px 10px 10px black;
+        font-size: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .contador li {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        padding: 1rem;
+        color: white;
+        background-color: #000000a6;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+        border-radius: 5px;
+        text-align: center;
+    }
+    
+    .contador li span {
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-size: 2rem;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    body {
+        height: 100vh;
+        display: grid;
+        align-items: center;
+        background-image: url(minhagatinha.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;    
+    }
+
+    h1 {
+        text-align: center;
+        color: #ffffff;
+        text-shadow: 10px 10px 10px black;
+        font-size: 8rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .contador li {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        padding: 1rem;
+        color: white;
+        background-color: #000000a6;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+        border-radius: 5px;
+        text-align: center;
+    }
+    
+    .contador li span {
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-size: 8rem;
+    }
+}
+
+
+li {
+    list-style: none;
+
+}
+
+.contador {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 400px));
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
